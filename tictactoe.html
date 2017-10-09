@@ -1,0 +1,70 @@
+<html>
+<title>Tic Tac Toe</title>
+<head>
+<link rel="stylesheet" type="text/css" href="css/tictactoe.css" />
+<script type="text/javascript" src="js/tictactoe.js"></script>       
+</head>
+<body onload="fnLoad()">
+
+        <!--<table border="1">
+            <tr>
+                <td id="cell1" onClick="Colour('cell1')" class=""></td>
+                <td id="cell2" onClick="Colour('cell2')" class=""></td>
+                <td id="cell3" onClick="Colour('cell3')" class=""></td>
+            </tr>
+
+            <tr>
+                <td id="cell4" onClick="Colour('cell4')" class=""></td>
+                <td id="cell5" onClick="Colour('cell5')" class=""></td>
+                <td id="cell6" onClick="Colour('cell6')" class=""></td>
+            </tr>
+
+            <tr>
+                <td id="cell7" onClick="Colour('cell7')" class=""></td>
+                <td id="cell8" onClick="Colour('cell8')" class=""></td>
+                <td id="cell9" onClick="Colour('cell9')" class=""></td>
+            </tr>
+        </table>
+
+        <script>
+            var player = 1;
+            function Colour(cell) {
+                if (player == 1) {
+                    document.getElementById(cell).className = "red";
+                    player +-1;
+                } else {
+                    document.getElementById(cell).className = "green";
+                    player -=1;
+                }
+            }
+        </script>-->
+
+        <div class="container">
+                <div>
+                        <select id="grid">
+                        </select>
+                        <button name="NewGame" class="newGame" value="Start a New Game" onClick="fnNewGame()">Start a New Game</button>
+                </div>
+                <div class="minContainer">
+                        <table class="row" id="game"></table>
+                </div>
+        </div>
+
+        <!--</div>
+                <ul class="row" id="game">
+                    <li id="one" class="btn span1" >+</li>
+                    <li id="two" class="btn span1">+</li>
+                    <li id="three" class="btn span1">+</li>
+                    <li id="four" class="btn span1">+</li>
+                    <li id="five" class="btn span1">+</li>
+                    <li id="six" class="btn span1">+</li>
+                    <li id="seven" class="btn span1">+</li>
+                    <li id="eight" class="btn span1">+</li>
+                    <li id="nine" class="btn span1">+</li>
+                </ul>
+        <div class="clr">&nbsp;</div>
+        <div class="row"><a href="#" id="reset" class="btn-success btn span3" >Restart</a></div></div>-->
+
+    </div>
+</body>
+</html>
